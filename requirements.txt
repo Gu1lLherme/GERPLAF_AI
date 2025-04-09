@@ -21,7 +21,7 @@ numpy>=1.26.4
 scipy>=1.13.0
 pandas>=2.2.2
 
-# ✅  modelos GGUF com LangChain (você precisa disso)
+#   modelos GGUF com LangChain (você precisa disso)
 llama-cpp-python==0.2.72  # ❗️Só vai funcionar após instalar o Build Tools da Microsoft
 
 
