@@ -1,0 +1,33 @@
+# Base LangChain e componentes
+langchain>=0.2.2
+langchain-core>=0.1.46
+langchain-community>=0.0.33
+langchain-huggingface>=0.0.5
+
+# Embeddings
+sentence-transformers>=2.6.1
+transformers>=4.39.0
+huggingface-hub>=0.22.2
+
+# FAISS para buscas vetoriais
+faiss-cpu>=1.8.0
+
+# PDF processing
+pdfplumber>=0.10.3
+pypdf>=3.17.1
+
+# Utilitários científicos
+numpy>=1.26.4
+scipy>=1.13.0
+pandas>=2.2.2
+
+# ✅  modelos GGUF com LangChain (você precisa disso)
+llama-cpp-python==0.2.72  # ❗️Só vai funcionar após instalar o Build Tools da Microsoft
+
+
+
+# 🛠️ Requisitos de compilação (Windows)
+cmake>=3.28
+scikit-build-core>=0.11
+wheel>=0.42.0
+setuptools>=68.0
